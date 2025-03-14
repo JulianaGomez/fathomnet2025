@@ -126,6 +126,27 @@ Whenever the preferred label type is not available, we use labels that come with
 ### BioCLIP to classify more than species
 
 - PlantVillage and PlantDoc datasets to classify both plant and disease: outperforms baselines on diseases in zero-shot. 
+
+
+--------
+
+# Questions (JGC)
+
+|Page|Question|Answer|
+|--|--|--|
+|4|Table 1: what do the 7,831 unique classes represent? Complete taxonomical classification?||
+|5|Not sure what the final text input to CLIP is, because column 1 says scientific name, column 2 says common name||
+|5|What is SimpleShot?||
+|5|What is meant by "All the examples left in the dataset are used for testing"?||
+|6|I find it hard to believe that the authors obtained common names for all species in the rare dataset||
+
+
+# Ideas (JGC)
+
+- Use BioCLIP approach for Ribbit, by combining spectrogram with text labels to see how we do.  
+
+
+
  
 
 
